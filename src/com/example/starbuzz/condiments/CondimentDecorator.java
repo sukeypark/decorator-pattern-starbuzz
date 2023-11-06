@@ -1,4 +1,6 @@
-package com.example.starbuzz;
+package com.example.starbuzz.condiments;
+
+import com.example.starbuzz.beverage.Beverage;
 
 public abstract class CondimentDecorator extends Beverage {
 

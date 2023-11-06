@@ -1,4 +1,4 @@
-package com.example.starbuzz;
+package com.example.starbuzz.beverage;
 
 public abstract class Beverage {
 
