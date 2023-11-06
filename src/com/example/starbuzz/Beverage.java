@@ -8,6 +8,6 @@ public abstract class Beverage {
         System.err.println(description);
     }
 
-    public abstract void cost();
+    public abstract double cost();
 
 }
