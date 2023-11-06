@@ -5,7 +5,7 @@ public abstract class Beverage {
     protected String description;
 
     public void getDescription() {
-        System.err.println(description);
+        System.out.println(description);
     }
 
     public abstract double cost();
