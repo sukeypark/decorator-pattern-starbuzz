@@ -4,10 +4,6 @@ public class Espresso extends Beverage {
 
     public Espresso() {
         this.description = "Espresso";
-        this.milk = false;
-        this.soy = false;
-        this.whip = false;
-        this.mocha = false;
     }
 
     @Override

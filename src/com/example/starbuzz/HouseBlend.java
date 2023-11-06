@@ -4,10 +4,6 @@ public class HouseBlend extends Beverage {
 
     public HouseBlend() {
         this.description = "House Blend";
-        this.milk = true;
-        this.soy = false;
-        this.whip = true;
-        this.mocha = true;
     }
 
     @Override
