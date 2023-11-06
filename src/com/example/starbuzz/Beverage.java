@@ -12,6 +12,14 @@ public abstract class Beverage {
 
     protected boolean whip;
 
+    private double milkCost = 0.2;
+
+    private double soyCost = 0.25;
+
+    private double mochaCost = 0.1;
+
+    private double whipCost = 0.15;
+
     public boolean hasMilk() {
         return this.milk;
     }
@@ -48,6 +56,21 @@ public abstract class Beverage {
         System.out.println(description);
     }
 
-    public abstract double cost();
+    public double cost() {
+        double contimentCost = 0.0;
+        if (hasMilk()) {
+            contimentCost += milkCost;
+        }
+        if (hasSoy()) {
+            contimentCost += soyCost;
+        }
+        if (hasMocha()) {
+            contimentCost += mochaCost;
+        }
+        if (hasWhip()) {
+            contimentCost += whipCost;
+        }
 
+        return contimentCost;
+    };
 }
